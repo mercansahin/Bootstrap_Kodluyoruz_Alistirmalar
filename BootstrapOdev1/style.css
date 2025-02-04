@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(219, 228, 224);
+}
+
+.p1_img {
+    border: 3px solid rgb(207, 13, 13); /* Siyah 2px kalınlığında çerçeve */
+    width: 250px; /* Genişliği ayarla */
+    height: 250px; /* Yüksekliği ayarla */
+    object-fit: cover; /* Resmin bozulmasını önler, kırparak sığdırır */
+    border-radius: 15px; /* Köşeleri hafif yuvarlatmak için */
+}
+
+ul {
+    /* liste elemanlarını hizaladık ve işaretlerini kare yaptık */
+    display: inline-block;
+    text-align: left;
+    list-style-type: square;
+}
+
+.urun_img {
+    border: 3px solid black; /* Siyah 2px kalınlığında çerçeve */
+    width: 250px; /* Genişliği ayarla */
+    height: 250px; /* Yüksekliği ayarla */
+    object-fit: cover; /* Resmin bozulmasını önler, kırparak sığdırır */
+    border-radius: 10px; /* Köşeleri hafif yuvarlatmak için */
+    margin-top: 50px;
+}
+
+.urun_p {
+    margin-top: 5px;
+}
+
+p a {
+    color: rgb(97, 34, 34);
+    font-style: italic;
+    font-weight: bold;
+}
+
+p a:hover {  /*Link üzerine gelince renk değişiyor ve alt çizgi gözükmüyor*/
+    color: rgb(192, 12, 177);
+    text-decoration: none;
+}
