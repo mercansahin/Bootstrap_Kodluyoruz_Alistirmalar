@@ -1,0 +1,17 @@
+.foto {
+    width: 300px;  /* Tüm resimleri aynı genişlikte yap */
+    height: 200px; /* Tüm resimleri aynı yükseklikte yap */
+    object-fit: cover; /* Oranı bozmadan kırp */
+    border-radius: 10px; /* İsteğe bağlı, köşeleri yuvarlatır */
+
+}
+
+.shadow {
+    -webkit-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.btn-rounded {
+    border-radius: 20px;
+}
