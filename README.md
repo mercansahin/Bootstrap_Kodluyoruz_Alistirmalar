@@ -5,3 +5,5 @@
 Bootstrap İlk Web Site --> Bootstrap Grid mantığını anlamak amacıyla bir site oluşturuldu.
 
 Demo Web Site 2 --> My_Page adında bir site oluşturuldu. Çoğunlukla Bootstrap kullanıldı.
+
+Ödev2 --> İnstagram ana sayfası HTML, CSS ve Bootstrap kullanılarak oluşturuldu.
